@@ -1,12 +1,12 @@
 
 import React from "react";
-import navbar from "./components/Navbar/navbar";
-
+import Navbar from "./components/Navbar/Navbar";
+import './App.css';
 function App() {
   return (<>
 
-  <navbar/>
-  
+  <Navbar/>
+
   </>
 
 
