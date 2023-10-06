@@ -11,7 +11,7 @@ const SpecialMenue = () => {
         <SubHeading title='Menu that fits you palatte' />
         <h1 className='headtext__cormorant'>Today's Special</h1>
       </div>
-      <div className='app__spectialMenu-menu'>
+      <div className='app__specialMenu-menu'>
         <div className='app__specialMenu-menu_wine flex__center'>
           <p className="app__specialMenu-menu_heading"> Ice Cream</p>
           <div className='app__specialMenu_menu_items'>
@@ -26,7 +26,7 @@ const SpecialMenue = () => {
         </div>
 
         <div className='app__specialMenu-menu_cocktails flex__center'>
-          <p className="app__specialMenu-menu_heading">Jiuce & Cocktails</p>
+          <p className="app__specialMenu-menu_heading">Cocktails</p>
           <div className='app__specialMenu_menu_items'>
             {data.cocktails.map((cocktail, index) => (
               <MenuItem key={cocktail.title+index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags}/>
